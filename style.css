@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar {
+    height: 25px;
+    background-color: #470841;  
+    
+}
+.nav {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar a {
+    color:white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.navbar i {
+   color: white;
+}
+.upperhero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo1 {
+    width: 220px;
+    height: 100px;
+    background-image: url("IEEE_RAS_logo.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.border:hover {
+    border-bottom: 1.5px solid white;
+}
+.logo2 {
+    width: 220px;
+    height: 60px;
+    background-image: url("ieee_logo.svg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.nav_search {
+    height: 30px;
+    width: 600px;
+    display: flex;
+    background-color:  rgb(224, 160, 41);
+    border-radius: 4px;
+    justify-content: space-evenly;
+    border:2px solid  rgb(224, 160, 41);
+}
+.nav_search:hover {
+    border:2px solid  rgb(224, 160, 41);
+}
+.search_select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.search_input {
+    width: 100%;
+    font-size: 1rem;
+    border:none;
+}
+.search_logo {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.div2 {
+    height: 34px;
+    background-color: white;
+    color:#99022F;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 820px;
+   
+}
+.box1 {
+    background-color: #99022F;
+    color:white;
+    width:134px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1 a {
+    text-decoration: none;
+    color:white;
+}
+.box1:hover {
+    background-color: #780a2b;
+}
+.div3 {
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.box2 {
+    border: 1px solid black;
+    width: 150px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color:rgb(253, 246, 246);
+    font-weight: 600;
+    
+}
+.box2 a {
+    margin-left: 30px;
+}
+.box2:hover {
+    background-color: #470841;
+    color: white;
+    font-weight: 600;
+}
+.pic {
+    height: 500px;
+    background-image: url("ICRA40_Slide.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.news h1 {
+    margin-top: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.news1 {
+    height:60px;
+    background-color:rgb(253, 246, 246);
+    border: 0.5px solid black;
+    color:black;
+}
+.news1 p {
+    margin-left: 60px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.news1 a {
+    margin-left: 60px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.news1 a:hover {
+    text-decoration: underline;
+}
+.news button {
+    margin-top: 15px;
+    margin-left: 550px;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #470841;
+    border: 2px solid transparent;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.news button a {
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+.spec h1 {
+    margin-top: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.ieee {
+    margin-top: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.spec1 {
+    height:60px;
+    background-color:white;
+    border: none;
+    color:black;
+}
+.spec1 p {
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.spec1 a {
+    margin-left: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.spec a:hover {
+    text-decoration: underline;
+}
+.content {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 60px;
+}
+.photo1 {
+    height: 300px;
+    width: 500px;
+    background-image: url("p1.webp");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.photo2 {
+    height: 300px;
+    width: 500px;
+    background-image: url("p2.webp");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.text {
+    width: 500px;
+    height: 100px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.spec button {
+    margin-top: 15px;
+    margin-left: 550px;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #470841;
+    border: 2px solid transparent;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.spec button a {
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+.spec button a:hover {
+    text-decoration: underline;
+}
+/* link */
+
+.link h1 {
+    margin-top: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.links {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 60px;
+        width: 1000px;
+        margin-left: 140px;
+}
+.a1 {
+    height: 200px;
+    width: 150px;
+    border: 1px solid black;
+}
+.a1:hover {
+    border: 1.5px solid black;
+}
+.msg {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+.a1 a {
+    text-decoration: none;
+    color: black;
+}
+.a1 a:hover {
+    text-decoration: underline;
+}
+
+.chobi1 {
+    height: 150px;
+    background-image: url("c1.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.chobi2 {
+    height: 150px;
+    background-image: url("c2.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.chobi3 {
+    height: 150px;
+    background-image: url("c3.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.chobi4 {
+    height: 150px;
+    background-image: url("c4.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.chobi5 {
+    height: 150px;
+    background-image: url("c5.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.chobi6 {
+    height: 150px;
+    background-image: url("c6.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.footer {
+    margin-top: 40px;
+    height: 140px;
+    background-color: #2A2A2A;
+}
+.lo {
+    height: 10px;
+}
+.ll {
+    margin-left: 250px;
+    font-size: 14px;
+    color:white;
+}
+.ll p {
+    margin-left: 100px;
+}
+.a2 {
+    display: flex;
+    width:300px;
+    justify-content: space-evenly;
+    margin-left:500px ;
+    margin-top: 40px;
+}
+.a2 i {
+    color: #f3f3f3;
+    height: 30px;
+    width: 30px;
+}
